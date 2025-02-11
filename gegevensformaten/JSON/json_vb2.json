@@ -1,0 +1,17 @@
+{
+  "odata.metadata":"https://opendata.cbs.nl/ODataApi/OData/84468NED/$metadata","value":[
+    {
+      "name":"TableInfos","url":"https://opendata.cbs.nl/ODataApi/odata/84468NED/TableInfos"
+    },{
+      "name":"UntypedDataSet","url":"https://opendata.cbs.nl/ODataApi/odata/84468NED/UntypedDataSet"
+    },{
+      "name":"TypedDataSet","url":"https://opendata.cbs.nl/ODataApi/odata/84468NED/TypedDataSet"
+    },{
+      "name":"DataProperties","url":"https://opendata.cbs.nl/ODataApi/odata/84468NED/DataProperties"
+    },{
+      "name":"CategoryGroups","url":"https://opendata.cbs.nl/ODataApi/odata/84468NED/CategoryGroups"
+    },{
+      "name":"WijkenEnBuurten","url":"https://opendata.cbs.nl/ODataApi/odata/84468NED/WijkenEnBuurten"
+    }
+  ]
+}

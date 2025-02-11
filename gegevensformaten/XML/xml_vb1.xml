@@ -1,0 +1,27 @@
+<root> 
+  <i30> 
+    <Label>1</Label> 
+    <Value></Value> 
+    <Hint>1. Blokpatronen (BP) 
+ 
+   -1= niet afgenomen 
+0..58= totaalscore</Hint> 
+    <Min>-1</Min> 
+    <Max>58</Max> 
+    <Valid>False</Valid> 
+  </i30> 
+  <i31> 
+    <Label>1a.</Label> 
+    <Value></Value> 
+    <Hint>1a. Blokpatronen zonder tijdbonus (BPz) 
+ 
+   -1= niet gescoord 
+0..46= totaalscore</Hint> 
+    <Min>-1</Min> 
+    <Max>46</Max> 
+    <Valid>False</Valid> 
+  </i31> 
+... 
+  <resultcode>0</resultcode> 
+  <resultmessage>ok</resultmessage> 
+</root>

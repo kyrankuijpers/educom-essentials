@@ -1,0 +1,26 @@
+<root> 
+  <o30> 
+    <Label>SScOV</Label> 
+    <Value>16</Value> 
+    <Hint>Geschaalde score Overeenkomsten (Range: 0..19)</Hint> 
+    <Min>0</Min> 
+    <Max>19</Max> 
+  </o30> 
+  <o31> 
+    <Label>SScWS</Label> 
+    <Value>19</Value> 
+    <Hint>Geschaalde score Woordenschat (Range: 0..19)</Hint> 
+    <Min>0</Min> 
+    <Max>19</Max> 
+  </o31> 
+  <o32> 
+    <Label>SScBG</Label> 
+    <Value>19</Value> 
+    <Hint>Geschaalde score Begrijpen (Range: 0..19)</Hint> 
+    <Min>0</Min> 
+    <Max>19</Max> 
+  </o32> 
+…   
+  <resultcode>0</resultcode> 
+  <resultmessage>ok</resultmessage> 
+</root> 
