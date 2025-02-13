@@ -1,0 +1,112 @@
+<mxfile host="65bd71144e">
+    <diagram id="AndmlG8OXz59sX7ShXyj" name="Page-1">
+        <mxGraphModel dx="1002" dy="571" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="8" value="beweeg(positie mok in hand Kyran, positie&amp;nbsp;hand buurvrouw)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="920" width="480" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="route := verkrijgRoute(positie&amp;nbsp;buurvrouw, positie koelkast van buurvrouw)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="1000" width="480" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="loop(route)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="1080" width="480" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="beweeg(positie&amp;nbsp;mok in hand buurvrouw, positie aanrecht)&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22loopRoute(route)%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%2280%22%20y%3D%22320%22%20width%3D%22480%22%20height%3D%2280%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="1160" width="480" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="open deur koelkast" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="1240" width="480" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="positie&amp;nbsp;melkpak := zoek(herinnering van hoe een melkpak uitziet, zoekgebied koelkast)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="1320" width="480" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="beweeg(positie&amp;nbsp;buurvrouw, positie melkpak)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="1400" width="480" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="open melk" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="1480" width="480" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="beweeg(positie&lt;br&gt;&amp;nbsp;buurvrouw, positie&lt;br&gt;&amp;nbsp;koffiemok op aanrecht)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="1560" width="480" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="schenkIn(hoeveelheid melk die kyran wil, positie&amp;nbsp;melkpak in hand buurvrouw, positie koffiemok op aanrecht)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="1640" width="480" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="doe melkpak dicht" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="1720" width="480" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="50" width="480" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="beweeg(positie start, positie einde)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="20" width="210" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="een actie die lichaamsdelen beweegt zodat positie einde - positie start kleiner wordt&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="90" width="420" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="zolang positie einde - positie start != 0" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="110" y="60" width="210" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="return success" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="190" width="480" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="een bewerking die de route uitstippelt van A naar B" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="310" width="480" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="verkrijgRoute(positie A, positie B, herinneringen)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="280" width="340" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="return route" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="370" width="480" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="een actie om de route te lopen" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="480" width="480" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="return success" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="540" width="480" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="loop(route)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="450" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="schenkIn(benodigde hoeveelheid, positie vloeistof om in te schenken, positie van object waar in ingeschonken moet worden)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="640" width="680" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="670" width="480" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="schenk vloeistof in object" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="710" width="420" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="zolang ingeschonken hoeveelheid &amp;lt; benodigde hoeveelheid EN kopje loopt niet over" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="110" y="680" width="340" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="return success" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="810" width="480" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="sluit koelkast" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="1960" width="480" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="beweeg(positie buurvrouw, positie mok op aanrecht)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="2040" width="480" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="pak mok" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="2120" width="480" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" value="beweeg(positie melkpak in hand, positie koelkast waar melk stond)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="1800" width="480" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="zet melk neer" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="1880" width="480" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" value="loop(inverteer(route))" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="2200" width="480" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="geef mok aan Kyran" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="2280" width="480" height="80" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
